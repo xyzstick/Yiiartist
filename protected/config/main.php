@@ -1,9 +1,9 @@
 <?php
 /**
-* Main configuration file
-* This is the main Web application configuration. Any writable
-* CWebApplication properties can be configured here.
-*/
+ * Main configuration file
+ * This is the main Web application configuration. Any writable
+ * CWebApplication properties can be configured here.
+ */
 // uncomment the following to define a path alias
 // Yii::setPathOfAlias('local','path/to/local-folder');
 return array(
@@ -21,8 +21,8 @@ return array(
 	),
 
 	/**
-	* Load Modules
-	*/
+	 * Load Modules
+	 */
 	/*'modules'=>array(
 		// uncomment the following to enable the Gii tool
 		//'generatorPaths'=>array('bootstrap.gii',),
@@ -39,8 +39,8 @@ return array(
 	//'defaultController'=>'post',
 
 	/**
-	* Application Components
-	*/
+	 * Application Components
+	 */
 	'components'=>array(
 		'user'=>array(
 			// enable cookie-based authentication "Remember me next time"
@@ -50,18 +50,18 @@ return array(
 		),//*/
 
 		/** 
-		* Cookies Request
-		* CHttpRequest encapsulates the $_SERVER variable and resolves its 
-		* inconsistency among different Web servers.
-		* Enable if enable cookie-based authentication "Remember me next time" is set.
-		*/
+		 * Cookies Request
+		 * CHttpRequest encapsulates the $_SERVER variable and resolves its 
+		 * inconsistency among different Web servers.
+		 * Enable if enable cookie-based authentication "Remember me next time" is set.
+		 */
 		/*'request'=>array(
 			'enableCookieValidation'=>true,
 		),//*/
 
 		/**
-		* URL Mananger
-		*/
+		 * URL Mananger
+		 */
 		/*'urlManager'=>array(
 			'urlFormat'=>'path',
 			'rules'=>array(
@@ -72,8 +72,8 @@ return array(
 		),//*/
 
 		/**
-		* Databases
-		*/
+		 * Databases
+		 */
 		/*'db'=>array(
 			'connectionString'=>'sqlite:protected/data/blog.db',
 			'tablePrefix'=>'tbl_',
@@ -89,15 +89,15 @@ return array(
 		),//*/
 
 		/**
-		* Authorization Manager
-		* Before we set off to define an authorization hierarchy and perform access 
-		* checking, we need to configure the authManager application component. Yii 
-		* provides two types of authorization managers: CPhpAuthManager and CDbAuthManager. 
-		* The former uses a PHP script file to store authorization data, while the latter 
-		* stores authorization data in database. When we configure the authManager application 
-		* component, we need to specify which component class to use and what are the initial 
-		* property values for the component
-		*/
+		 * Authorization Manager
+		 * Before we set off to define an authorization hierarchy and perform access 
+		 * checking, we need to configure the authManager application component. Yii 
+		 * provides two types of authorization managers: CPhpAuthManager and CDbAuthManager. 
+		 * The former uses a PHP script file to store authorization data, while the latter 
+		 * stores authorization data in database. When we configure the authManager application 
+		 * component, we need to specify which component class to use and what are the initial 
+		 * property values for the component
+		 */
 		/*'authManager'=>array(
 			'class'=>'CDbAuthManager',
 			'connectionID'=>'db',
@@ -108,16 +108,16 @@ return array(
 		),//*/
 
 		/**
-		* Session
-		* The save path, in case you’re not familiar with it, is where the session data 
-		* is stored on the server. By default, this is a temporary directory, globally 
-		* readable and writable. Every site running on the sever, if there are many (and 
-		* shared hosting plans can have dozens on a single server), share this same directory. 
-		* This means that any site on the server can read any other site’s stored session data. 
-		* For this reason, changing the save path to a directory within your own site can be a 
-		* security improvement. Alternatively, you can store the session data in a database. To  
-		* do that, add this code to the “components” section of protected/config/main.php:
-		*/
+		 * Session
+		 * The save path, in case you’re not familiar with it, is where the session data 
+		 * is stored on the server. By default, this is a temporary directory, globally 
+		 * readable and writable. Every site running on the sever, if there are many (and 
+		 * shared hosting plans can have dozens on a single server), share this same directory. 
+		 * This means that any site on the server can read any other site’s stored session data. 
+		 * For this reason, changing the save path to a directory within your own site can be a 
+		 * security improvement. Alternatively, you can store the session data in a database. To  
+		 * do that, add this code to the “components” section of protected/config/main.php:
+		 */
 		'session'=>array(
 			'class'=>'system.web.CDbHttpSession',
 			'connectionID'=>'db',
@@ -133,16 +133,16 @@ return array(
 		),//*/
 
 		/**
-		* Error Handler
-		*/
+		 * Error Handler
+		 */
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
 		),//*/
 
 		/**
-		* Logging
-		*/
+		 * Logging
+		 */
 		'log'=>array(
 			'class'=>'CLogRouter',
 			'routes'=>array(
@@ -154,9 +154,9 @@ return array(
 	),
 
 	/**
-	* application-level parameters that can be accessed
-	* using Yii::app()->params['paramName']
-	*/
+	 * application-level parameters that can be accessed
+	 * using Yii::app()->params['paramName']
+	 */
 	'params'=>array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',

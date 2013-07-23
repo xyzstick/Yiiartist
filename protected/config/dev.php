@@ -79,14 +79,14 @@ return array(
 		),//*/
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString'=>'mysql:host=localhost;dbname=testdrive',
+			'connectionString'=>'mysql:host=localhost;dbname=yiiartist',
 			'emulatePrepare'=>true,
 			'username'=>'root',
 			'password'=>'',
 			'charset'=>'utf8',
-			//'tablePrefix'=>'tbl_',
+			'tablePrefix'=>'tbl_',
 		),//*/
-
+	    
 		/**
 		 * Authorization Manager
 		 * Before we set off to define an authorization hierarchy and perform access 

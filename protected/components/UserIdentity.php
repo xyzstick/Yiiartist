@@ -18,8 +18,8 @@
 class UserIdentity extends CUserIdentity
 {
 	/**
-	* Varables Constants Defined
-	*/
+	 * Varables Constants Defined
+	 */
 	const ERROR_EMAIL_INVALID=3;
 	const ERROR_STATUS_INACTIVE=4;
 	const ERROR_STATUS_BANNED=5;

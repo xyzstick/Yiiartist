@@ -24,5 +24,5 @@ CREATE TABLE tbl_User (
 ) ENGINE=InnoDB;
 
 /* Both passwords are "demo" */
-INSERT INTO tbl_User (username, password, email, status, last_login) VALUES ('admin', '$2a$10$JTJf6/XqC94rrOtzuF397OHa4mbmZrVTBOQCmYD9U.obZRUut4BoC', 'bat@localhost.com', 1, '2013-07-20 07:45:23');
+INSERT INTO tbl_User (username, password, email, status, last_login) VALUES ('admin', '$2a$10$JTJf6/XqC94rrOtzuF397OHa4mbmZrVTBOQCmYD9U.obZRUut4BoC', 'admin@localhost.com', 1, '2013-07-20 07:45:23');
 INSERT INTO tbl_User (username, password, email) VALUES ('demo','$2a$10$JTJf6/XqC94rrOtzuF397OHa4mbmZrVTBOQCmYD9U.obZRUut4BoC','demo@localhost.com');
